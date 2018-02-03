@@ -9,15 +9,15 @@ describe("Animal", function(){
 
 	//Spider
 	it("Should have 8 legs if it's a spider", function(){
-		var insect = new Animal();
-		insect.kind = "spider";
-		expect(insect.numLegs()).toBe(8);
+		var spider = new Animal();
+		spider.kind = "spider";
+		expect(spider.numLegs()).toBe(8);
 	});
 
 	//Millipede
 	it("Shouldn't know the number of legs of a millipede", function(){
-		var insect = new Animal();
-		insect.kind = "millipede";
-		expect(insect.numLegs()).toBeUndefined();
+		var millipede = new Animal();
+		millipede.kind = "millipede";
+		expect(millipede.numLegs()).toBeUndefined();
 	});
 });
