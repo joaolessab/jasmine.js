@@ -20,4 +20,16 @@ describe("SoccerPlayer", function(){
 		expect(player.starName()).toMatch("naldo"); //Regular Expressions
 		expect(player.starName()).toMatch(/naldo/); //Regular Expressions
 	});
+
+	//Different players
+	it("Only one player is able to play", function(){
+		var playerOne = new SoccerPlayer();
+		playerOne.situation = "injured";
+
+		var playerTwo = new SoccerPlayer();
+		playerTwo.situation = "healthy";
+
+		expect(playerOne.injuryStatus()).toBeTruthy(); //Truthy (Coulde use Falsy)
+		expect(playerTwo.injuryStatus()).not.toBeTruthy(); //Not Truthy (Coulde use Not Falsy)
+	});
 });

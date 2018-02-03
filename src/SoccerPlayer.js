@@ -18,3 +18,10 @@ SoccerPlayer.prototype.starName = function(){
 		case "france": return "Paul Pogba";
 	};
 };
+
+SoccerPlayer.prototype.injuryStatus = function(){
+	switch (this.situation){
+		case "injured": return true;
+		case "healthy": return false;
+	};
+};
