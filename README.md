@@ -8,7 +8,9 @@ Reposity dedicated to test the Jasmine framework for Front-End implementations.
 #### It's simple: 
 #### 1 - Download my repository or the latest stand-alone package from their [official repository](https://github.com/jasmine/jasmine/releases) if you want to start a new one;
 #### 2 - Unzip the folder;
-#### 2 - Open your favorite text editor and start to code;
+#### 3 - Open your favorite text editor and start to code;
+#### 4 - Sources are the main functions while Spec are the test functions;
+#### 5 - After coding, open the SpecRunner.html to see the results;
 
 ## Want to watch a good tutorial introduction? 
 [Click here to check the video](https://blog.codeship.com/jasmine-testing-javascript/)
