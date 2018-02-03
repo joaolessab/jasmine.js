@@ -1,18 +1,13 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jvlessa/Meteor-JS--Trapux/master/public/resources/logotipo-principal.png" width="250">
+  <img src="https://github.com/jvlessa/Jasmine-JS--Testings/blob/master/images/logo.svg" width="250">
 </p>
 
-Web responsive system develop to improve the management of processes between developers, clients and final users focusing on User Experience based on [Nielsen's heuristics for User Interface Design](https://www.nngroup.com/articles/ten-usability-heuristics/). 
-
-This project was developed with [Meteor JS](https://www.meteor.com/developers).
+Reposity dedicated to test the Jasmine framework for Front-End implementations. 
 
 ## How do I run your project, João? 
 #### It's simple: 
-#### 1 - Install Meteor JS according its [documentation](https://www.meteor.com/install);
-#### 2 - Run the commands below inside the main folder of the application:
-```sh
-$ meteor npm install
-$ meteor
-```
-## Want to see some screenshots? 
-[Click here to check them out](https://github.com/jvlessa/Meteor-JS--Trapux/tree/master/screenshots)
+#### 1 - Download the latest stand-alone package from their [official repository](https://github.com/jasmine/jasmine/releases);
+#### 2 - Open your text editor and start to code;
+
+## Want to watch a good tutorial introduction? 
+[Click here to check it out](https://blog.codeship.com/jasmine-testing-javascript/)
