@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/jvlessa/Jasmine-JS--Testings/blob/master/images/logo.svg" width="250">
+  <img src="https://github.com/jvlessa/Jasmine-JS--Testings/blob/master/images/logo.svg" width="450">
 </p>
 
 Reposity dedicated to test the Jasmine framework for Front-End implementations. 
