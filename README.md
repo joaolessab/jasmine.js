@@ -11,4 +11,4 @@ Reposity dedicated to test the Jasmine framework for Front-End implementations.
 #### 2 - Open your favorite text editor and start to code;
 
 ## Want to watch a good tutorial introduction? 
-[Click here to check it out](https://blog.codeship.com/jasmine-testing-javascript/)
+[Click here to check the video](https://blog.codeship.com/jasmine-testing-javascript/)
