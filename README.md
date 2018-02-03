@@ -14,3 +14,7 @@ Reposity dedicated to test the Jasmine framework for Front-End implementations.
 
 ## Want to watch a good tutorial introduction? 
 [Click here to check the video](https://blog.codeship.com/jasmine-testing-javascript/)
+
+## Those were the documentations I used to create my tests 
+[First source](https://jasmine.github.io/2.0/introduction.html)
+[Second source](https://jasmine.github.io/api/2.9/global)
