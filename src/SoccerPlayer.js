@@ -25,3 +25,18 @@ SoccerPlayer.prototype.injuryStatus = function(){
 		case "healthy": return false;
 	};
 };
+
+SoccerPlayer.prototype.transferStatus = function(){
+	switch (this.name){
+		case "Romario": return "loan";
+		case "Zico": return "sold";
+	};
+};
+
+SoccerPlayer.prototype.teamsPlayed = function(){
+	switch (this.id){
+		case 5: return ["saopaulo", "milan", "juventus", "manchesterunited"];
+		case 7: return ["saopaulo", "milan", "juventus", "realmadrid", "manchesterunited"];
+		case 9: return ["palmeiras", "milan", "juventus"];
+	};
+};

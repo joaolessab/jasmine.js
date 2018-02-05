@@ -32,4 +32,20 @@ describe("SoccerPlayer", function(){
 		expect(playerOne.injuryStatus()).toBeTruthy(); //Truthy (Coulde use Falsy)
 		expect(playerTwo.injuryStatus()).not.toBeTruthy(); //Not Truthy (Coulde use Not Falsy)
 	});
+
+	//Transfer status
+	it("Zico has been sold", function(){
+		var player = new SoccerPlayer();
+		player.name = "Zico";
+
+		expect(player.transferStatus()).toContain("sold"); //Truthy (Coulde use Falsy)
+	});
+
+	//Teams played
+	it("Player had played on Real Madrid", function(){
+		var player = new SoccerPlayer();
+		player.id = 7;
+
+		expect(player.teamsPlayed()).toContain("realmadrid");
+	});
 });
