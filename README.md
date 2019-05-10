@@ -2,7 +2,7 @@
   <img src="https://github.com/jvlessa/Jasmine-JS--Testings/blob/master/images/logo.svg" width="450">
 </p>
 
-Reposity dedicated to test the Jasmine framework for Front-End implementations. 
+Repository dedicated to test the Jasmine framework for Front-End implementations. 
 
 ## How do I run your project, João? 
 #### It's simple: 
